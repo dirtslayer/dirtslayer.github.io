@@ -15,5 +15,5 @@ Have a great day, thanks for checking out designr8.com
 
 [gh]: http://github.com/dirtslayer
 [fb]: http://facebook.com/dirtslayer
-[tw]: http://twitter.com/dirtslayer
+[tw]: http://twitter.com/darrelldupas
 [e]: mailto:dirtslayer@gmail.com

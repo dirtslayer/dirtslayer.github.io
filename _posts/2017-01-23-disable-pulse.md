@@ -34,6 +34,9 @@ My recording mic is on my webcam, C920, we can see that at the moment it is card
 
 ![fmit settings][images/2017-01-23-132940_1920x1080_scrot.png]
 
+![hydrogen settings]
+
+![jsampler settings]
 
 [running pulse]: https://wiki.archlinux.org/index.php/PulseAudio#Running
 

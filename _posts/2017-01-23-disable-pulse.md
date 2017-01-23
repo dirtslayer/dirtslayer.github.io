@@ -7,6 +7,7 @@ categories: linux
 I use pulsaudio when I am not using applications that dont support it well. So most things for everyday stuff. But when I am using midi sound system or certain sound applications (fmit) I like an alsa setup, which means [disabling pulseaudio][running pulse].
 
 I create a separate user for that, this way configs do not have to be swapped, we just logout and login as a different user. Use systemctl as the new user that you want to disable pulse with. Arch linux documentation - [disabling pulseaudio][running pulse].
+
 ~~~
 $ systemctl --user mask pulseaudio.socket
 ~~~

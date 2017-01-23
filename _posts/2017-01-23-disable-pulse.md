@@ -32,7 +32,7 @@ card 2: C920 [HD Pro Webcam C920], device 0: USB Audio [USB Audio]
 
 My recording mic is on my webcam, C920, we can see that at the moment it is card2, device 0. wich in alsa speak is hw:2,0
 
-![fmit settings][images/2017-01-23-132940_1920x1080_scrot.png]
+![fmit settings](/images/2017-01-23-132940_1920x1080_scrot.png)
 
 ![hydrogen settings]
 

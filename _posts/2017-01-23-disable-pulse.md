@@ -12,7 +12,7 @@ $ systemctl --user mask pulseaudio.socket
 ~~~
 
 
-fmit is a free musical instrument tuner that does not support pulse, but works great with alsa.
+fmit is a free musical instrument tuner that does not support pulse, but works great with alsa. I use it to [tune my guitar][guitar tunings].
 
 Now to use fmit we just need to set our alsa device, which is easy if you know how to find the incantation of arecord -l.
 
@@ -40,3 +40,4 @@ My recording mic is on my webcam, C920, we can see that at the moment it is card
 
 [running pulse]: https://wiki.archlinux.org/index.php/PulseAudio#Running
 
+[guitar tunings]: https://en.wikipedia.org/wiki/Guitar_tunings

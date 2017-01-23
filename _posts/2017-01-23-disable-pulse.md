@@ -16,19 +16,18 @@ fmit is a free musical instrument tuner that does not support pulse, but works g
 
 Now to use fmit we just need to set our alsa device, which is easy if you know how to find the incantation of arecord -l.
 
-'''
-[darrell@archdd ~]$ arecord -l
-**** List of CAPTURE Hardware Devices ****
-card 0: PCH [HDA Intel PCH], device 0: ALC892 Analog [ALC892 Analog]
-  Subdevices: 1/1
-  Subdevice #0: subdevice #0
-card 0: PCH [HDA Intel PCH], device 2: ALC892 Alt Analog [ALC892 Alt Analog]
-  Subdevices: 1/1
-  Subdevice #0: subdevice #0
-card 2: C920 [HD Pro Webcam C920], device 0: USB Audio [USB Audio]
-  Subdevices: 0/1
-  Subdevice #0: subdevice #0
-'''
+    [darrell@archdd ~]$ arecord -l
+    **** List of CAPTURE Hardware Devices ****
+    card 0: PCH [HDA Intel PCH], device 0: ALC892 Analog [ALC892 Analog]
+    Subdevices: 1/1
+    Subdevice #0: subdevice #0
+    card 0: PCH [HDA Intel PCH], device 2: ALC892 Alt Analog [ALC892 Alt Analog]
+    Subdevices: 1/1
+    Subdevice #0: subdevice #0
+    card 2: C920 [HD Pro Webcam C920], device 0: USB Audio [USB Audio]
+    Subdevices: 0/1
+    Subdevice #0: subdevice #0
+
 
 My recording mic is on my webcam, C920, we can see that at the moment it is card2, device 0. wich in alsa speak is hw:2,0
 

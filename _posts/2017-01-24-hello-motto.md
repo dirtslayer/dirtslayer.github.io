@@ -17,33 +17,32 @@ minutes to get most of my favorite productivty
 apps. 
 
 
-*AIDE -
+* AIDE -
 	git enabled text editor
-*ArtRage -
+* ArtRage -
 	painting
-*At Bat
+* At Bat -
 	watch major league baseball
-*Coastline -
+* Coastline -
 	a simple notepad with share
-*Daily Yoga
-*Dark Horse Comics
-*Device Manager -
+* Daily Yoga
+* Dark Horse Comics
+* Device Manager -
 	find other peoples phones with guest login
-*Docs
-*Folio Pro -
+* Docs
+* Folio Pro -
 	avoid facebook messenger
-*Fora Dictionary Pro
-*Google Opinion Rewards -
+* Fora Dictionary Pro
+* Google Opinion Rewards -
 	get discounts in play store by answering
 	questions
-*Keepass2Android -
+* Keepass2Android -
 	encrypted password database
-*List My Apps -
+* List My Apps -
 	generate a list of the apps on your android
-*Minecraft - Pocket Edition
-*Moon+ Reader Pro -
-*Netflix
-	com.netflix.mediaclient
-*Scientific Calculator
-	com.meonria.scientificcalc
-*Slack
+* Minecraft - Pocket Edition
+* Moon+ Reader Pro -
+* Netflix
+* Scientific Calculator
+* Slack -
+ chat with groups, a modern irc 

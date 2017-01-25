@@ -53,8 +53,8 @@ apps.
 <div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
-this.page.url = http://designr8.com/android/2017/01/24/hello-motto.html;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = hellomoto; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.url = 'http://designr8.com/android/2017/01/24/hello-motto.html'; 
+this.page.identifier = 'Hellomoto';
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE

@@ -8,7 +8,7 @@ comments: true
 In the Linux community we enjoy sharing our desktop configuration. There
 couldn't be a better time to be using Linux. I'd say that KDE Plasma and 
 Gnome desktops are very
-usable now and I like them both, but prefer KDE. However, I dont use 
+usable now and I like them both, but prefer KDE. However, I don't use 
 either, I have been content with openbox. If you use a login manager
 openbox will read its startup program list from ~/.config/openbox/autostart.
 But, if you use startx you will need to add your startup programs to
@@ -98,14 +98,14 @@ thing to pen and paper I can find. Mypaint uses the keyboard a lot, it is worth
 while to learn the keys:
 
 shift - draw a line
-z - undo
-d - smaller pen
-f - bigger pen
-'-' - zoom out
-'+' - zoom in
-r - pick color
-x - recent colors
-e - eraser
+* z - undo
+* d - smaller pen
+* f - bigger pen
+* '-' - zoom out
+* '+' - zoom in
+* r - pick color
+* x - recent colors
+* e - eraser
 
 ![mypaint](/images/Screenshot_20170127_105831.png)
 

@@ -97,7 +97,7 @@ If you have a tablet or touchscreen you will want this program. It is the closes
 thing to pen and paper I can find. Mypaint uses the keyboard a lot, it is worth
 while to learn the keys:
 
-shift - draw a line
+* shift - draw a line
 * z - undo
 * d - smaller pen
 * f - bigger pen

@@ -6,9 +6,9 @@ comments: true
 ---
 
 In the Linux community we enjoy sharing our desktop configuration. There
-couldn't be a better time to be using Linux truely, with some exciting
-stuff happening. I'd say that KDE Plasma and Gnome desktops are very
-usable now and I like them both, but prefer KDE. However I dont use 
+couldn't be a better time to be using Linux. I'd say that KDE Plasma and 
+Gnome desktops are very
+usable now and I like them both, but prefer KDE. However, I dont use 
 either, I have been content with openbox. If you use a login manager
 openbox will read its startup program list from ~/.config/openbox/autostart.
 But, if you use startx you will need to add your startup programs to

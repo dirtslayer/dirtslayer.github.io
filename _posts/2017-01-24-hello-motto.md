@@ -13,10 +13,7 @@ In fact I am using it in bed to make this post.
 I am using Aide web, which is $30 per year, which
 I dont really need, but I love software.
 
-I just got this phone today and it took only a
-minutes to get most of my favorite productivty
-apps. 
-
+# My favorite apps
 
 * AIDE -
 	git enabled text editor

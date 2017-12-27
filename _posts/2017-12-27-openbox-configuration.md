@@ -9,23 +9,20 @@ In the Linux community we enjoy sharing our desktop configuration. There
 couldn't be a better time to be using Linux. I'd say that KDE Plasma and 
 Gnome desktops are very
 usable now and I like them both, but prefer KDE. However, I don't use 
-either, I have been content with openbox. If you use a login manager
-openbox will read its startup program list from ~/.config/openbox/autostart.
+either, I have been content with Openbox. If you use a login manager
+
+Openbox will read its startup program list from the file ~/.config/openbox/autostart. If that file does not exist it might use the system wide autostart located at /etc/xdg/openbox/autostart.
 But, if you use startx you will need to add your startup programs to
 ~/.xinitrc.
 
-Here is my openbox autostart file.
+Here is the ever changing Openbox autostart file.
 
 ~~~
-albert &
 pasystray &
 nitrogen --restore &
 tint2 &
 ~~~
 
-* albert - this is an application launcher. On first run you will need to set 
-  its keystroke sequence. I use ctrl + space, and that doesn't seem to 
-  conflict with anything. 
 * pasystray - pulse audio tray for configuring sound and mic settings
 * nitrogen - sets desktop wallpaper
 * tint2 - a very configurable toolbar
@@ -43,6 +40,134 @@ re-generate your menu if new software is added.
 ~~~
 $ cd ~/.config/openbox
 $ obmenu-generator -s > menu.xml
+~~~
+
+# use your own menu.xml
+
+The system wide menu is /etc/xdg/openbox/menu.xml, it might look something like this:
+
+
+~~~
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+<menu id="apps-accessories-menu" label="Accessories">
+
+  <item label="Terminal">
+    <action name="Execute">
+      <command>konsole</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Run">
+    <action name="Execute">
+      <command>rofi -show run</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+
+  <item label="App Finder">
+    <action name="Execute">
+      <command>xfce4-appfinder</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Calculator">
+    <action name="Execute">
+      <command>kcalc</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Character Map">
+    <action name="Execute">
+      <command>kcharselect</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Editor">
+    <action name="Execute">
+      <command>kate</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="system-menu" label="System">
+  <item label="Openbox">
+    <action name="Execute">
+      <command>obconf</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Wallpaper">
+    <action name="Execute">
+      <command>nitrogen</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Dock">
+    <action name="Execute">
+      <command>tint2</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Kill">
+    <action name="Execute">
+      <command>xkill</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="root-menu" label="">
+  <item label="Chrome">
+    <action name="Execute">
+      <command>google-chrome-stable</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Files">
+    <action name="Execute">
+      <command>thunar</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Volume">
+    <action name="Execute">
+      <command>pavucontrol</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <menu id="apps-accessories-menu"/>
+  <menu id="system-menu"/>
+  <item label="Log Out">
+    <action name="Exit">
+      <prompt>yes</prompt>
+    </action>
+  </item>
+</menu>
+
+</openbox_menu>
+
 ~~~
 
 # tint2rc

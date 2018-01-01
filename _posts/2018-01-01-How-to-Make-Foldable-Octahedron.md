@@ -35,7 +35,7 @@ that.
 We could use the edge of the page for an origin but leave some space will allow 
 for flaps. Make a vertical line 1 cm from the left edge of the page.
 
-## Mark the corners along your rows.
+## Mark the corners along your rows
 If you used a different edge length you will have to scale your distances, but 
 using the side of length 4 cm you can use the following distances from the left 
 margin
@@ -43,8 +43,8 @@ margin
 | Row | cm from left edge |
 --------------------------|
 | 1st row | 8, 12 |
-| 2nd row | 0, 2, 6, 10 |
-| 3rd row | 4, 8, 12|
+| 2nd row | 2, 6, 10 |
+| 3rd row | 0, 4, 8, 12|
 | 4th row | 6|
 
 ![rows with corners](https://goo.gl/wEk5RU)

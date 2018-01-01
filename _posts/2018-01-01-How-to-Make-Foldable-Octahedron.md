@@ -2,6 +2,9 @@
 This 8 sided shape made of equilateral triangles is very pleasing to look at and 
 has some interesting qualities.
 
+![some Octoheadrons](/images/IMG_20180101_120254.jpg)
+
+
 ## Gather some materials 
 1. Paper
 2. Pencil

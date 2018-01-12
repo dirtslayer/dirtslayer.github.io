@@ -32,7 +32,7 @@ that.
 ![rows](https://goo.gl/7aGgD5)
 
 ## Mark a left margin
-We could use the edge of the page for an origin but leave some space will allow 
+We could use the edge of the page for an origin but leaving some space will allow 
 for flaps. Make a vertical line 1 cm from the left edge of the page.
 
 ## Mark the corners along your rows

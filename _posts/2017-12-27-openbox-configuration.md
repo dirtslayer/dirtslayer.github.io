@@ -18,14 +18,19 @@ But, if you use startx you will need to add your startup programs to
 Here is the ever changing Openbox autostart file.
 
 ~~~
+dbus-launch &
+dunst &
 pasystray &
 nitrogen --restore &
 tint2 &
+notify-send "Welcome to Zenbook" &
 ~~~
-
+* dbus-launch - dbus an inter-process communication daemon
+* dunst - a dbus messaging daemon
 * pasystray - pulse audio tray for configuring sound and mic settings
 * nitrogen - sets desktop wallpaper
 * tint2 - a very configurable toolbar
+* notify-send - uses dunst to display welcom message
 
 You will want to do 2 important things now:
 

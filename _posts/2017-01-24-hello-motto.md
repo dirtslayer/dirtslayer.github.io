@@ -50,7 +50,7 @@ I dont really need, but I love software.
 <div id="disqus_thread"></div>
 <script>
 var disqus_config = function () {
-this.page.url = 'http://designr8.com/android/2017/01/24/hello-motto.html'; 
+this.page.url = 'http://dirtslayer.github.io/android/2017/01/24/hello-motto.html'; 
 this.page.identifier = 'Hellomoto';
 };
 

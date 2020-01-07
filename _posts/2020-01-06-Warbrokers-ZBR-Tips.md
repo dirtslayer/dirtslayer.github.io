@@ -32,3 +32,5 @@ Do not rush to kill as many as possible, just focus on killing the zombies that 
 ## End Game
 
 Don't rush, don't panic. Healing while in the red zone is safer than getting swarmed by zombies. Wait until you are down to 200 health to heal with medium heath. While you are healing you can still fire your weapon, so stay back.
+
+![Milan 2020](/images/milan2020.png)

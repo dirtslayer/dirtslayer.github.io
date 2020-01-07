@@ -4,6 +4,11 @@ title: Warbrokers ZBR Tips
 categories: games
 comments: true
 ---
+## Holiday Zombie Battle Royal
+
+Is a special game mode for Warbrokers.io
+
+![link to wiki page](https://war-brokers.fandom.com/wiki/Holiday_Royale)
 
 ## Mindset 
 

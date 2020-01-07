@@ -8,7 +8,7 @@ comments: true
 
 Is a special game mode for Warbrokers.io
 
-[link to wiki page]:(https://war-brokers.fandom.com/wiki/Holiday_Royale)
+[link to wiki page](https://war-brokers.fandom.com/wiki/Holiday_Royale)
 
 ## Mindset 
 

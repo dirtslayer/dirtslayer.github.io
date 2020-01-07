@@ -8,8 +8,4 @@ Christmas is past and I've had 2 weeks off work. I have started this website ove
 
 The new site is 1000 times easier to change and work with. I am using Jekyll and Github Pages. Markdown is the bomb. 
 
-I am not one to anounce my plans but this site will be adding content more often now. I am planning an article about managing your sensitive information with Keepass, beginning an RC car hobby, learning programming, some javascript joy and hopefully lots more. 
-
-Lastly, I just want to say thank you for coming here, if you know me already, thank you for your patience - seriously. I have been super busy the last 4 years parenting and working. My long term goals are to be in the tech industry full time, so I had better get cracking and start writing!
-
 [dirtslayer-gh]:   https://github.com/dirtslayer

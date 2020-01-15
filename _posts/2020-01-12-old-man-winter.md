@@ -11,4 +11,4 @@ comments: true
 
 ![cold man](/images/2020coldman.jpg)
 
-![plant](/images/2020plant.jpg)
+<img src="/images/2020coldman.jpg" />

@@ -1,0 +1,10 @@
+@import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/custom.css");
+video,
+iframe[id^='youtube-player'], 
+iframe[src*='youtube-nocookie.com'],
+iframe[src*='player.vimeo'],
+iframe[src$='.mp4'],
+iframe[src$='.mkv'] {
+  height: 500px;
+  width: auto;
+}

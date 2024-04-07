@@ -1,6 +1,32 @@
 @import url('https://unpkg.com/github-markdown-css/github-markdown-light.css');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 
+
+.dark-theme,
+html[data-theme=dark] {
+    --ls-primary-background-color: #111a2ae8;
+    --ls-secondary-background-color: #202a3af2;
+    --ls-tertiary-background-color: #323232;
+    --ls-quaternary-background-color: #004876d4;
+    --ls-guideline-color: #33476082;
+    --ls-selection-background-color: #21A4E16E;
+    --ls-active-primary-color: #2db4ddcf;
+    --ls-active-secondary-color: #efe8fb;
+    --ls-block-bullet-border-color: var(--ls-quaternary-background-color);
+    --ls-block-bullet-color: #f0f8ff96;
+    --ls-link-text-color: #bfe3f1d9;
+    --ls-primary-text-color: #e4f7f9;
+    --ls-secondary-text-color: #4fa6ff;
+}
+.bg-indigo-600 {
+    background-color: var(--ls-guideline-color);
+}
+
+.bg-indigo-600:hover {
+    background-color: var(--ls-selection-background-color);
+}
+
+
 .markdown-body {
   box-sizing: border-box;
   min-width: 200px;
